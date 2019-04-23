@@ -16,6 +16,7 @@ import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './pages/about/about.component';
 import { FeaturesComponent } from './pages/features/features.component';
 import { EmployeesComponent } from './pages/employees/employees.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { EmployeesComponent } from './pages/employees/employees.component';
     ServicesComponent,
     AboutComponent,
     FeaturesComponent,
-    EmployeesComponent
+    EmployeesComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
