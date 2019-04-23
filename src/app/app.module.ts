@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRouting } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { MenuComponent } from './shared/menu/menu.component';
 import { SliderComponent } from './pages/slider/slider.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ServicesComponent } from './services/services.component';
@@ -23,7 +25,7 @@ import { EmployeesComponent } from './pages/employees/employees.component';
     MenuComponent,
     SliderComponent,
     FooterComponent,
-    PortfolioComponent,
+    PortafolioComponent,
     GalleryComponent,
     ContactComponent,
     ServicesComponent,
@@ -32,7 +34,8 @@ import { EmployeesComponent } from './pages/employees/employees.component';
     EmployeesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRouting
   ],
   providers: [],
   bootstrap: [AppComponent]
