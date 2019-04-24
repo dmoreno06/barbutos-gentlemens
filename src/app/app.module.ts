@@ -5,7 +5,6 @@ import { AppRouting } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { LogoComponent } from './shared/logo/logo.component';
-import { BannerComponent } from './shared/banner/banner.component';
 import { MenuComponent } from './shared/menu/menu.component';
 import { SliderComponent } from './pages/slider/slider.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -22,7 +21,6 @@ import { HeaderComponent } from './shared/header/header.component';
   declarations: [
     AppComponent,
     LogoComponent,
-    BannerComponent,
     MenuComponent,
     SliderComponent,
     FooterComponent,
